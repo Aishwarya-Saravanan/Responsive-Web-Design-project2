@@ -1,0 +1,195 @@
+html{
+    background-image: linear-gradient(rgb(250, 104, 104),#f34685);
+
+}
+body{
+    color: white;
+    font-family: 'roboto', sans-serif;
+    font-size: 1.125rem;
+}
+.container {  
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right:auto ;
+}
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 20px;
+padding-bottom: 20px;
+border-bottom: 1px solid lightgrey;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+.main2
+{
+    min-height: 300px;
+    padding-top: 50px;
+
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.card1{
+    background-image: url(images/img1box1.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 250px;
+    width: 30%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0 , 0.228);
+}
+.card2{
+    background-image: url(images/box2\ img.jpg);
+    background-size: cover;
+    background-position:right;
+    min-height: 300px;
+    width: 30%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0 , 0.228);
+}
+.card3{
+    background-image: url(images/box3\ img.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 250px;
+    width: 30%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0 , 0.228);
+}
+.card1, .card2, .card3{
+    padding: 30px 30px 20px 30px;
+    box-sizing: border-box;
+}
+.sec1{
+    width: 70%;
+padding-right: 100px;
+
+}
+.sec2{
+    width: 30%;
+}
+h1{
+    font-size: 3.25rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1rem;
+
+}
+h2{
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20px;
+}
+ 
+p{
+    line-height:1.75rem ;
+    margin-bottom: 0.5rem;
+
+}
+.cards p {
+font-size: 0.85rem;
+line-height: 1.2rem;
+margin-top: 10px;
+}
+.cards i{
+    font-size: 100px;
+}
+.cards a{
+    color:white;
+    text-decoration: none;
+}
+.mybutton{
+    background-color: white;
+    color: tomato;
+    font-family:'Playfair Display', serif ;
+    padding: 11px 25px;
+    border-radius: 2px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0 , 0.228);
+}
+a.mybutton{
+display: inline-block;
+    margin-top: 10px;
+}
+nav a.mybutton{
+    margin-left: 30px;
+}
+.navbutton{
+    border: 1px solid white;
+    padding: 11px 25px;
+    font-family:'Playfair Display', serif ;
+    display: inline-block;
+    position: relative;
+}
+.feedbacks
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.fbox
+{
+    width: 47%;
+    padding:50px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+.mybutton:hover{
+    background-color: lightpink;
+    transition-duration: 2s;
+}
+.fbox p:last-of-type
+{
+    font-size: 0.8rem;
+    padding-left: 30px;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 20px;
+    text-align: center;
+    margin-left: -30px;
+}
+.navbutton:hover .dropdown{
+    display: block;
+}
+.dropdown .navbutton{
+    background-color: rgb(27, 114, 27);
+    width: 100px;
+}
+ .inputwrap{
+margin-top: 20px;
+ }
+ input[type=text],input[type=email],textarea {
+     padding: 12px 20px;
+     width: 100%;
+     font-family: 'roboto', sans-serif;
+     font-size: 1rem;
+     box-sizing: border-box;
+ }
+.new{
+ display: block;
+ margin-bottom: 10px;
+ }
+ .space{
+     margin-right: 20px;
+ }
+ input[type=radio] {
+     margin-right: 10px;
+ }
+  form{
+      margin: 40px 0px;
+  }
+  
